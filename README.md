@@ -15,6 +15,7 @@ python3 -m venv nom_environement_virtuel # exemple: python -m venv venv. Le « m
 source nom_environement_virtuel/bin/activate # Pour activer l'environnement virtuel. Tapez deactivate pour le désactiver
 python3 -m pip install -r requirements.txt #Installer les bibliothèques Python présentes dans le fichier Requirements.txt
 pip list #Pour afficher la liste des bibliothèques installées dans votre environnement virtuel.
+mlflow server --host 127.0.0.1 --port 8080 #Lancez mlflow. Vous pouvez choisir un autre port, à condition qu'il soit libre.
 ```
 
 ## Ressources

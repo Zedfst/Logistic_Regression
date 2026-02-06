@@ -1,4 +1,5 @@
 venv/
 data/
 plante.ipynb
-cancer.ipynb
+mlflow.db
+weights/

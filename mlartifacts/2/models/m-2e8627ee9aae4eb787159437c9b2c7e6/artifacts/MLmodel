@@ -1,0 +1,39 @@
+artifact_path: mlflow-artifacts:/2/models/m-2e8627ee9aae4eb787159437c9b2c7e6/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.9.0
+model_id: m-2e8627ee9aae4eb787159437c9b2c7e6
+model_size_bytes: 2491
+model_uuid: m-2e8627ee9aae4eb787159437c9b2c7e6
+prompts: null
+run_id: b0cd39e196f84378af1818eaf95af665
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "age", "required": true}, {"type": "long", "name":
+    "genre", "required": true}, {"type": "double", "name": "imc", "required": true},
+    {"type": "long", "name": "fumeur", "required": true}, {"type": "long", "name":
+    "risque_genetique", "required": true}, {"type": "double", "name": "activite_physique",
+    "required": true}, {"type": "double", "name": "consomme_alcool", "required": true},
+    {"type": "long", "name": "historique_cancer", "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-02-06 15:31:15.464258'
