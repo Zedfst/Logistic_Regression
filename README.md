@@ -22,4 +22,4 @@ mlflow server --host 127.0.0.1 --port 8080 #Lancez mlflow. Vous pouvez choisir u
 
 [Pdf](src/regression_logistique.pdf)
 
-<!-- [Notebook]() -->
+[Notebook](prediction_cancer.ipynb)
