@@ -1,10 +1,10 @@
-# Logistic_Regression
+# Régression Logistique
 
-This training introduces the fundamentals of logistic regression through theoretical explanations and a use case.
+Cette formation a pour objectif de présenter la théorie de la régression linéaire, accompagnée de deux cas pratiques illustrant son application. La régression logistique est un algorithme de machine learning qui permet de résoudre des problèmes de classification binaire. Un problème de classification binaire est un problème avec deux résultats possibles : 0 ou 1, vrai ou faux, accepté ou refusé, bon ou mauvais, etc.
 
-# Configuration de l'environnement
+## Configuration de l'environnement
 
-## Ubuntu
+### Ubuntu
 
 ```bash
 git clone https://github.com/Zedfst/Logistic_Regression.git #Impoter le project en local
@@ -17,7 +17,7 @@ python3 -m pip install -r requirements.txt #Installer les bibliothèques Python 
 pip list #Pour afficher la liste des bibliothèques installées dans votre environnement virtuel.
 ```
 
-# Ressources
+## Ressources
 
 [Pdf](src/regression_logistique.pdf)
 
