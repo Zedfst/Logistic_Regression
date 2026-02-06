@@ -16,3 +16,9 @@ source nom_environement_virtuel/bin/activate # Pour activer l'environnement virt
 python3 -m pip install -r requirements.txt #Installer les bibliothèques Python présentes dans le fichier Requirements.txt
 pip list #Pour afficher la liste des bibliothèques installées dans votre environnement virtuel.
 ```
+
+# Ressources
+
+[Pdf](src/regression_logistique.pdf)
+
+<!-- [Notebook]() -->
